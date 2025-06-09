@@ -398,15 +398,15 @@ def main():
             # Create download buttons
             if predictions:
                 predictions_df = pd.DataFrame(predictions)
-                st.markdown(get_table_download_link(predictions_df, "predictions.csv"), unsafe_allow_html=True)
+                st.markdown(get_table_download_link(predictions_df, "Cav_predictions.csv"), unsafe_allow_html=True)
 
             if atom_importances:
                 atom_imp_df = pd.concat(atom_importances)
-                st.markdown(get_table_download_link(atom_imp_df, "atom_importance.csv"), unsafe_allow_html=True)
+                st.markdown(get_table_download_link(atom_imp_df, "Cav_atom_importance.csv"), unsafe_allow_html=True)
 
             if bond_importances:
                 bond_imp_df = pd.concat(bond_importances)
-                st.markdown(get_table_download_link(bond_imp_df, "bond_importance.csv"), unsafe_allow_html=True)
+                st.markdown(get_table_download_link(bond_imp_df, "Cav_bond_importance.csv"), unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
