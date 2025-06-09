@@ -15,7 +15,7 @@ st.set_page_config(
 st.title("Welcome to the Cardiotoxicity Prediction App!")
 
 st.markdown("""
-    This application allows you to predict whether a given molecule is a blocker for
+    This application allows you to predict whether a given molecule is a blocker which means cardiotoxic for
     different types of ion channels: **hERG (Kav), Cav, and Nav**.
 
     Use the sidebar to navigate to the specific predictor you wish to use.
