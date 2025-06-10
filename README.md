@@ -21,8 +21,8 @@
 ---
 
 ## 🚀 Features
-
 * ✅ Predicts whether a molecule is a **Blocker** or **Non-blocker**
+* ⚙️ Support both user-friendly Streamlit.io [web application](https://cardiotoxprediction.streamlit.app/) and Docker container
 * ⚙️ Supports both **CPU** and **GPU** inference
 * 🔍 Provides **atom- and bond-level importance scores**
 * 💾 Saves prediction results and visualizations with **timestamped directories**
