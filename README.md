@@ -133,7 +133,7 @@ If you use **CardiotoxPred** in your research or publication, please consider ci
 
 ```bibtex
 @article{,
-  author    = {Dhairiya Agarwal and Prabha Garg},
+  author    = {Dhairiya Agarwal, Anju Sharma, and Prabha Garg},
   title     = {CardiotoxPred: GNN-Based Classification Model for Predicting Cardiac Toxicity: Kav, Cav, Nav},
   journal   = {...},
   volume    = {},
