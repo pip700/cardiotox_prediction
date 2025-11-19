@@ -12,14 +12,12 @@
 * [Installation](#-installation)
 * [Usage `CardiotoxPred`](#-usage)
 * [Output Results](#-output-results)
-* [Troubleshooting](troubleshooting)
 * [Citation](#-citation)
 
 ---
 
 ## 🚀 Features
 * ✅ Predicts whether a molecule is a **Blocker** or **Non-blocker**
-* ⚙️ Support Docker container with both **CPU** and **GPU** inference
 * 💾 Saves prediction results and visualizations with **timestamped directories**
 * 🖼️ Outputs visualizations to help interpret model predictions
 
@@ -60,17 +58,11 @@ sudo apt-get install docker.io -y
 
 Navigate to your working directory and run the container:
 
-#### CPU-only version:
 
 ``` bash
 sudo docker run -it --rm -v ${PWD}:/workspace ghcr.io/pip700/cardiotoxpred:v2
 ```
 
-#### GPU-enabled version:
-
-``` bash
-sudo docker run --gpus all -it --rm -v ${PWD}:/workspace ghcr.io/pip700/cardiotoxpred:v2
-```
 
 ### 3. Input File Selection
 
@@ -100,14 +92,6 @@ All output files are saved in a **timestamped directory** created in your workin
 * `Prediction.csv`: Predicted labels and probabilities (Blocker / Non-blocker)
 * `Atom & Bond-level.png`: Visual representation of importance for the prediction
 
----
-
-
-## 🛠️ Troubleshooting
-
-* **Docker not found**: Ensure Docker is installed and added to PATH
-* **Permission denied**: Try running Docker with `sudo`
-* **GPU not detected**: Ensure NVIDIA drivers and Docker's GPU support are installed correctly
 ---
 
 
