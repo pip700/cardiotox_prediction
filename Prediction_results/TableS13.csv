@@ -1,0 +1,67 @@
+Drugs,Smiles,K+,Ca2+ ,Na+,Predicted combination,Cardiotoxicity
+Bepridil,CC(C)COCC(CN(CC1=CC=CC=C1)C2=CC=CC=C2)N3CCCC3,Blocker,Blocker,Blocker,B-B-B,Low
+Amiodarone,CCCCC1=C(C2=CC=CC=C2O1)C(=O)C3=CC(=C(C(=C3)I)OCCN(CC)CC)I,Blocker,Non-blocker,Blocker,B-NB-B,Moderate
+Disopyramide,CC(C)N(CCC(C1=CC=CC=C1)(C2=CC=CC=N2)C(=O)N)C(C)C,Blocker,Non-blocker,Blocker,B-NB-B,Moderate
+Dofetilide,CN(CCC1=CC=C(C=C1)NS(=O)(=O)C)CCOC2=CC=C(C=C2)NS(=O)(=O)C,Blocker,Non-blocker,Non-blocker,B-NB-NB,High
+Dronedarone,CCCCC1=C(C2=C(O1)C=CC(=C2)NS(=O)(=O)C)C(=O)C3=CC=C(C=C3)OCCCN(CCCC)CCCC,Blocker,Non-blocker,Non-blocker,B-NB-NB,High
+Flecainide,C1CCNC(C1)CNC(=O)C2=C(C=CC(=C2)OCC(F)(F)F)OCC(F)(F)F,Blocker,Non-blocker,Blocker,B-NB-B,Moderate
+Hydroquinidine,CC[C@H]1CN2CC[C@H]1C[C@@H]2[C@H](C3=C4C=C(C=CC4=NC=C3)OC)O,Blocker,Non-blocker,Blocker,B-NB-B,Moderate
+Ibutilide,CCCCCCCN(CC)CCCC(C1=CC=C(C=C1)NS(=O)(=O)C)O,Blocker,Non-blocker,Non-blocker,B-NB-NB,High
+Nifekalant,CN1C(=CC(=O)N(C1=O)C)NCCN(CCCC2=CC=C(C=C2)[N+](=O)[O-])CCO,Blocker,Non-blocker,Non-blocker,B-NB-NB,High
+Sotalol,CC(C)NCC(C1=CC=C(C=C1)NS(=O)(=O)C)O,Blocker,Non-blocker,Non-blocker,B-NB-NB,High
+Aclarubicin,CC[C@]1(C[C@@H](C2=C(C3=C(C=C2[C@H]1C(=O)OC)C(=O)C4=C(C3=O)C(=CC=C4)O)O)O[C@H]5C[C@@H]([C@@H]([C@@H](O5)C)O[C@H]6C[C@@H]([C@@H]([C@@H](O6)C)O[C@H]7CCC(=O)[C@@H](O7)C)O)N(C)C)O,Blocker,Blocker,Blocker,B-B-B,Low
+6857599,C1CC[C@H]([C@@H](C1)N)N.C(=O)(C(=O)O)O.[Pt+2],Blocker,Non-blocker,Non-blocker,B-NB-NB,High
+Citalopram,CN(C)CCCC1(C2=C(CO1)C=C(C=C2)C#N)C3=CC=C(C=C3)F,Blocker,Non-blocker,Non-blocker,B-NB-NB,High
+Escitalopram,CN(C)CCC[C@@]1(C2=C(CO1)C=C(C=C2)C#N)C3=CC=C(C=C3)F,Blocker,Non-blocker,Non-blocker,B-NB-NB,High
+Domperidone,C1CN(CCC1N2C3=C(C=C(C=C3)Cl)NC2=O)CCCN4C5=CC=CC=C5NC4=O,Blocker,Non-blocker,Blocker,B-NB-B,Moderate
+Ondansetron,CC1=NC=CN1CC2CCC3=C(C2=O)C4=CC=CC=C4N3C,Blocker,Non-blocker,Non-blocker,B-NB-NB,High
+Pentamidine,C1=CC(=CC=C1C(=N)N)OCCCCCOC2=CC=C(C=C2)C(=N)N,Blocker,Blocker,Blocker,B-B-B,Low
+Astemizole,COC1=CC=C(C=C1)CCN2CCC(CC2)NC3=NC4=CC=CC=C4N3CC5=CC=C(C=C5)F,Blocker,Blocker,Blocker,B-B-B,Low
+Terfenadine,CC(C)(C)C1=CC=C(C=C1)C(CCCN2CCC(CC2)C(C3=CC=CC=C3)(C4=CC=CC=C4)O)O,Blocker,Blocker,Blocker,B-B-B,Low
+Chloroquine,CCN(CC)CCCC(C)NC1=C2C=CC(=CC2=NC=C1)Cl,Blocker,Non-blocker,Non-blocker,B-NB-NB,High
+Halofantrine,CCCCN(CCCC)CCC(C1=C2C=CC(=CC2=C3C=C(C=C(C3=C1)Cl)Cl)C(F)(F)F)O,Blocker,Non-blocker,Non-blocker,B-NB-NB,High
+Hydroxychloroquine,CCN(CCCC(C)NC1=C2C=CC(=CC2=NC=C1)Cl)CCO,Blocker,Non-blocker,Non-blocker,B-NB-NB,High
+Meglumine Antimoniate,CNC[C@@H]([C@H]([C@@H]([C@@H](CO)O)O)O)O.O[Sb](=O)=O,Blocker,Non-blocker,Blocker,B-NB-B,Moderate
+"Chlorprothixene, (E)-",CN(C)CC/C=C/1\C2=CC=CC=C2SC3=C1C=C(C=C3)Cl,Blocker,Blocker,Blocker,B-B-B,Low
+Haloperidol,C1CN(CCC1(C2=CC=C(C=C2)Cl)O)CCCC(=O)C3=CC=C(C=C3)F,Blocker,Blocker,Blocker,B-B-B,Low
+Levomepromazine,C[C@@H](CN1C2=CC=CC=C2SC3=C1C=C(C=C3)OC)CN(C)C,Blocker,Blocker,Blocker,B-B-B,Low
+Pimozide,C1CN(CCC1N2C3=CC=CC=C3NC2=O)CCCC(C4=CC=C(C=C4)F)C5=CC=C(C=C5)F,Blocker,Blocker,Blocker,B-B-B,Low
+Thioridazine,CN1CCCCC1CCN2C3=CC=CC=C3SC4=C2C=C(C=C4)SC,Blocker,Blocker,Blocker,B-B-B,Low
+Chlorpromazine,CN(C)CCCN1C2=CC=CC=C2SC3=C1C=C(C=C3)Cl,Blocker,Non-blocker,Blocker,B-NB-B,Moderate
+Droperidol,C1CN(CC=C1N2C3=CC=CC=C3NC2=O)CCCC(=O)C4=CC=C(C=C4)F,Blocker,Non-blocker,Blocker,B-NB-B,Moderate
+Sertindole,C1CN(CCC1C2=CN(C3=C2C=C(C=C3)Cl)C4=CC=C(C=C4)F)CCN5CCNC5=O,Blocker,Non-blocker,Blocker,B-NB-B,Moderate
+Donepezil,COC1=C(C=C2C(=C1)CC(C2=O)CC3CCN(CC3)CC4=CC=CC=C4)OC,Blocker,Non-blocker,Non-blocker,B-NB-NB,High
+Cisapride,CO[C@H]1CN(CC[C@H]1NC(=O)C2=CC(=C(C=C2OC)N)Cl)CCCOC3=CC=C(C=C3)F,Blocker,Non-blocker,Blocker,B-NB-B,Moderate
+Cocaine,CN1[C@H]2CC[C@@H]1[C@H]([C@H](C2)OC(=O)C3=CC=CC=C3)C(=O)OC,Blocker,Non-blocker,Blocker,B-NB-B,Moderate
+Terodiline,CC(CC(C1=CC=CC=C1)C2=CC=CC=C2)NC(C)(C)C,Blocker,Blocker,Blocker,B-B-B,Low
+Levomethadyl Acetate,CC[C@@H](C(C[C@H](C)N(C)C)(C1=CC=CC=C1)C2=CC=CC=C2)OC(=O)C,Blocker,Blocker,Blocker,B-B-B,Low
+Ibogaine,CC[C@H]1C[C@@H]2C[C@@H]3[C@H]1N(C2)CCC4=C3NC5=C4C=C(C=C5)OC,Blocker,Blocker,Blocker,B-B-B,Low
+Mobocertinib,CC(C)OC(=O)C1=CN=C(N=C1C2=CN(C3=CC=CC=C32)C)NC4=C(C=C(C(=C4)NC(=O)C=C)N(C)CCN(C)C)OC,Blocker,Non-blocker,Non-blocker,B-NB-NB,High
+Quizartinib,CC(C)(C)C1=CC(=NO1)NC(=O)NC2=CC=C(C=C2)C3=CN4C5=C(C=C(C=C5)OCCN6CCOCC6)SC4=N3,Blocker,Non-blocker,Blocker,B-NB-B,Moderate
+Papaverine Hydrochloride,COC1=C(C=C(C=C1)CC2=NC=CC3=CC(=C(C=C32)OC)OC)OC.Cl,Blocker,Blocker,Non-blocker,B-B-NB,Moderate
+Propofol,CC(C)C1=C(C(=CC=C1)C(C)C)O,Non-blocker,Blocker,Blocker,NB-B-B,Low
+Sevoflurane,C(OC(C(F)(F)F)C(F)(F)F)F,Non-blocker,Non-blocker,Non-blocker,NB-NB-NB,Lowest
+Procainamide,CCN(CC)CCNC(=O)C1=CC=C(C=C1)N,Non-blocker,Non-blocker,Non-blocker,NB-NB-NB,Lowest
+Quinidine,COC1=CC2=C(C=CN=C2C=C1)[C@@H]([C@H]3C[C@@H]4CCN3C[C@@H]4C=C)O,Non-blocker,Blocker,Blocker,NB-B-B,Low
+Azithromycin,CC[C@@H]1[C@@]([C@@H]([C@H](N(C[C@@H](C[C@@]([C@@H]([C@H]([C@@H]([C@H](C(=O)O1)C)O[C@H]2C[C@@]([C@H]([C@@H](O2)C)O)(C)OC)C)O[C@H]3[C@@H]([C@H](C[C@H](O3)C)N(C)C)O)(C)O)C)C)C)O)(C)O,Non-blocker,Non-blocker,Blocker,NB-NB-B,Low
+Ciprofloxacin,C1CC1N2C=C(C(=O)C3=CC(=C(C=C32)N4CCNCC4)F)C(=O)O,Non-blocker,Non-blocker,Blocker,NB-NB-B,Low
+Clarithromycin,CC[C@@H]1[C@@]([C@@H]([C@H](C(=O)[C@@H](C[C@@]([C@@H]([C@H]([C@@H]([C@H](C(=O)O1)C)O[C@H]2C[C@@]([C@H]([C@@H](O2)C)O)(C)OC)C)O[C@H]3[C@@H]([C@H](C[C@H](O3)C)N(C)C)O)(C)OC)C)C)O)(C)O,Non-blocker,Non-blocker,Blocker,NB-NB-B,Low
+Erythromycin,CC[C@@H]1[C@@]([C@@H]([C@H](C(=O)[C@@H](C[C@@]([C@@H]([C@H]([C@@H]([C@H](C(=O)O1)C)O[C@H]2C[C@@]([C@H]([C@@H](O2)C)O)(C)OC)C)O[C@H]3[C@@H]([C@H](C[C@H](O3)C)N(C)C)O)(C)O)C)C)O)(C)O,Non-blocker,Non-blocker,Blocker,NB-NB-B,Low
+Gatifloxacin,CC1CN(CCN1)C2=C(C=C3C(=C2OC)N(C=C(C3=O)C(=O)O)C4CC4)F,Non-blocker,Non-blocker,Non-blocker,NB-NB-NB,Lowest
+Grepafloxacin,CC1CN(CCN1)C2=C(C(=C3C(=C2)N(C=C(C3=O)C(=O)O)C4CC4)C)F,Non-blocker,Non-blocker,Non-blocker,NB-NB-NB,Lowest
+Levofloxacin,C[C@H]1COC2=C3N1C=C(C(=O)C3=CC(=C2N4CCN(CC4)C)F)C(=O)O,Non-blocker,Non-blocker,Blocker,NB-NB-B,Low
+Moxifloxacin,COC1=C2C(=CC(=C1N3C[C@@H]4CCCN[C@@H]4C3)F)C(=O)C(=CN2C5CC5)C(=O)O,Non-blocker,Non-blocker,Blocker,NB-NB-B,Low
+Roxithromycin,CC[C@@H]1[C@@]([C@@H]([C@H](/C(=N/OCOCCOC)/[C@@H](C[C@@]([C@@H]([C@H]([C@@H]([C@H](C(=O)O1)C)O[C@H]2C[C@@]([C@H]([C@@H](O2)C)O)(C)OC)C)O[C@H]3[C@@H]([C@H](C[C@H](O3)C)N(C)C)O)(C)O)C)C)O)(C)O,Non-blocker,Non-blocker,Blocker,NB-NB-B,Low
+Sparfloxacin,C[C@@H]1CN(C[C@@H](N1)C)C2=C(C(=C3C(=C2F)N(C=C(C3=O)C(=O)O)C4CC4)N)F,Non-blocker,Non-blocker,Blocker,NB-NB-B,Low
+261004,O=[As]O[As]=O,Non-blocker,Non-blocker,Non-blocker,NB-NB-NB,Lowest
+Vandetanib,CN1CCC(CC1)COC2=C(C=C3C(=C2)N=CN=C3NC4=C(C=C(C=C4)Br)F)OC,Non-blocker,Non-blocker,Non-blocker,NB-NB-NB,Lowest
+Fluconazole,C1=CC(=C(C=C1F)F)C(CN2C=NC=N2)(CN3C=NC=N3)O,Non-blocker,Non-blocker,Non-blocker,NB-NB-NB,Lowest
+Probucol,CC(C)(C)C1=CC(=CC(=C1O)C(C)(C)C)SC(C)(C)SC2=CC(=C(C(=C2)C(C)(C)C)O)C(C)(C)C,Non-blocker,Blocker,Blocker,NB-B-B,Low
+Levosulpiride,CCN1CCC[C@H]1CNC(=O)C2=C(C=CC(=C2)S(=O)(=O)N)OC,Non-blocker,Blocker,Blocker,NB-B-B,Low
+Mesoridazine,CN1CCCCC1CCN2C3=CC=CC=C3SC4=C2C=C(C=C4)S(=O)C,Non-blocker,Non-blocker,Blocker,NB-NB-B,Low
+Sulpiride,CCN1CCCC1CNC(=O)C2=C(C=CC(=C2)S(=O)(=O)N)OC,Non-blocker,Non-blocker,Non-blocker,NB-NB-NB,Lowest
+Sultopride,CCN1CCCC1CNC(=O)C2=C(C=CC(=C2)S(=O)(=O)CC)OC,Non-blocker,Non-blocker,Non-blocker,NB-NB-NB,Lowest
+Methadone,CCC(=O)C(CC(C)N(C)C)(C1=CC=CC=C1)C2=CC=CC=C2,Non-blocker,Non-blocker,Blocker,NB-NB-B,Low
+Cilostazol,C1CCC(CC1)N2C(=NN=N2)CCCCOC3=CC4=C(C=C3)NC(=O)CC4,Non-blocker,Non-blocker,Non-blocker,NB-NB-NB,Lowest
+Cesium Chloride,[Cl-].[Cs+],Non-blocker,Non-blocker,Non-blocker,NB-NB-NB,Lowest
+Terlipressin,C1C[C@H](N(C1)C(=O)[C@@H]2CSSC[C@@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N2)CC(=O)N)CCC(=O)N)CC3=CC=CC=C3)CC4=CC=C(C=C4)O)NC(=O)CNC(=O)CNC(=O)CN)C(=O)N[C@@H](CCCCN)C(=O)NCC(=O)N,Non-blocker,Blocker,Blocker,NB-B-B,Low
