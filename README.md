@@ -60,25 +60,29 @@ Navigate to your working directory and run the container:
 
 
 ``` bash
-sudo docker run -it --rm -v ${PWD}:/workspace ghcr.io/pip700/cardiotoxpred:v2
+sudo docker run -it --rm -v ${PWD}:/workspace ghcr.io/pip700/cardiotoxpred:v3
 ```
 
 
 ### 3. Input File Selection
 
-Once inside the Docker container: Select input format: Either `1`: SMILES or `2`: CSV file......
+Once inside the Docker container: Select input format: Either `1`: SMILES , `2` or `3`: CSV file
   
-* Enter `1` to choose **SMILE** format, Provide the smile string, e.g.:
+* With Explanation: Enter `1` to choose **SMILE** format, Provide the smile string, e.g.:
 
   ```
   COC1=CC=C(C=C1)CCN2CCC(CC2)NC3=NC4=CC=CC=C4N3CC5=CC=C(C=C5)F
   ```
-* Enter `2` to choose **CSV** format, Provide the filename, e.g.:
+* Without Explanation: Enter `2` to choose **CSV** format, Provide the filename, e.g.:
 
   ```
   samples.csv
   ```
+* Post-hoc anlysis with Explanation: Enter `3` to choose **CSV** format, Provide the filename, e.g.:
 
+  ```
+  samples.csv
+  ```
 > The CSV file **must** contain a column with valid SMILES strings.
 
 ---
