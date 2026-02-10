@@ -2,7 +2,7 @@
 
 # [**CardiotoxPred**]: Cardiotoxicity Prediction Using Deep Learning
 
-**CardiotoxPred** is a GNN-based tool designed to predict cardiotoxicity of chemical compounds based on their molecular structure, provided in SMILES format. The tool not only performs classification (Blocker vs. Non-blocker) but also delivers **atom-level and bond-level interpretability** visualizations.
+**CardiotoxPred** is a GNN-based tool designed to predict cardiotoxicity of chemical compounds based on their molecular structure, provided in SMILES format. The tool not only performs classification (Blocker vs. Non-blocker) but also delivers **atom-level and bond-level explanability** visualizations.
 
 ---
 
