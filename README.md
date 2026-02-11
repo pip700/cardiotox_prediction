@@ -60,7 +60,7 @@ Navigate to your working directory and run the container:
 
 
 ``` bash
-sudo docker run -it --rm -v ${PWD}:/workspace ghcr.io/pip700/cardiotoxpred:v3
+sudo docker run -it --rm -v "$PWD":/workspace ghcr.io/pip700/cardiotoxpred:v3
 ```
 
 
