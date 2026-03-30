@@ -106,12 +106,12 @@ If you use **CardiotoxPred** in your research or publication, please consider ci
 ```bibtex
 @article{,
   author    = {Dhairiya Agarwal, Anju Sharma, and Prabha Garg},
-  title     = {CardiotoxPred: GNN-Based Classification Model for Predicting Cardiac Toxicity: Kav, Cav, Nav},
-  journal   = {...},
+  title     = {Graph-Based Classification with GNN-Explainer for Predicting Cardiac Toxicity Associated with Multi-Ion Channel Blockers},
+  journal   = {Chemical Research in Toxicology},
   volume    = {},
-  year      = {2025},
-  url       = {https://pubmed.ncbi.nlm.nih.gov/...},
-  doi       = {...},
+  year      = {2026},
+  url       = {https://pubs.acs.org/doi/10.1021/acs.chemrestox.5c00369?goto=supporting-info},
+  doi       = {https://doi.org/10.1021/acs.chemrestox.5c00369},
   issn      = {}
 }
 ```
