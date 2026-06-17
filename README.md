@@ -108,10 +108,10 @@ If you use **CardiotoxPred** in your research or publication, please consider ci
   author    = {Dhairiya Agarwal, Anju Sharma, and Prabha Garg},
   title     = {Graph-Based Classification with GNN-Explainer for Predicting Cardiac Toxicity Associated with Multi-Ion Channel Blockers},
   journal   = {Chemical Research in Toxicology},
-  volume    = {},
+  volume    = {39},
   year      = {2026},
-  url       = {https://pubs.acs.org/doi/10.1021/acs.chemrestox.5c00369?goto=supporting-info},
+  url       = {https://pubs.acs.org/doi/10.1021/acs.chemrestox.5c00369},
   doi       = {https://doi.org/10.1021/acs.chemrestox.5c00369},
-  issn      = {}
+  issn      = {4}
 }
 ```
